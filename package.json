@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./server/start.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "webpack --bail",
+    "prod": "NODE_ENV=production webpack --bail"
   },
   "dependencies": {
     "@glenjamin/eslint-config": "2.1.3",
