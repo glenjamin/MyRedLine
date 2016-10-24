@@ -1,0 +1,25 @@
+{
+  "name": "MyRedLine",
+  "version": "1.0.0",
+  "description": "App for seeing and tweaking sports activity data",
+  "main": "index.js",
+  "author": "Glen Mailer <glenjamin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server/start.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@glenjamin/eslint-config": "2.1.3",
+    "babel-runtime": "^6.11.6",
+    "easy-fit": "^0.0.5",
+    "eslint": "2.8.0",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-inspector": "^1.1.0",
+    "webpack": "2.1.0-beta.25",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.0"
+  }
+}
